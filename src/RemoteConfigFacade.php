@@ -13,6 +13,6 @@ class RemoteConfigFacade extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'remoteConfig';
+        return RemoteConfig::class;
     }
 }
